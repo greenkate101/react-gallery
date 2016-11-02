@@ -1,5 +1,6 @@
-function app () {
-	//you can do it
-}
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-app();
+var Counter = require('./components/counter');
+
+ReactDOM.render(<Counter phrase='I like tacos'/>, document.body);
